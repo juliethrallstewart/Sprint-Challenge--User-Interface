@@ -163,6 +163,26 @@ p {
     margin: 0 auto;
 }
 
+/*home page*/
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin: 20px 0 40px 0;
+    width: 90%;
+}
+
+#jumbo-img {
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -218,25 +238,6 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
 .box1 {
     background-color: teal;
 }
@@ -277,3 +278,24 @@ footer nav a {
 .box10 {
     background-color: dodgerblue;
 }
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/*about page*/
