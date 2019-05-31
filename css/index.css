@@ -174,7 +174,7 @@ p {
     width: 90%;
 }
 
-#jumbo-img {
+.jumbo-img {
     margin-top: 20px;
 }
 
@@ -282,6 +282,7 @@ nav a {
 footer {
     width: 100%;
     background: black;
+
 }
 
 footer nav {
@@ -299,3 +300,46 @@ footer nav a {
 }
 
 /*about page*/
+
+.about-header {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.section-container {
+    border-top: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 20px 0;
+    height: auto;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.card-img {
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 15px;
+    width: 125px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px 15px;
+
+}
+
+.invitation {
+    margin: 40px 0;
+    margin-left: 20px;
+}
